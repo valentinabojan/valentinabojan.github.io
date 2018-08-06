@@ -8,6 +8,11 @@ description: > # this means to ignore newlines until "baseurl:"
 
 github_username: valentinabojan
 
+author:
+  name: Valentina Bojan
+  email: bojan.valentinacamelia@gmail.com
+  avatar: https://gravatar.com/userimage/70327762/786d00eea1f72ee727e667326d0be3c9.jpeg
+
 show_excerpts: true # set to false to remove excerpts on the homepage
 
 theme: jekyll-theme-leap-day
