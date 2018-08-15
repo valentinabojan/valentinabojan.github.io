@@ -1,18 +1,18 @@
-title: My awesome title
-author: Valentina Bojan
-email: bojan.valentinacamelia@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# Permalinks
+permalink:           pretty
 
-github_username: valentinabojan
+# Setup
+title:               Lanyon
+tagline:             'A Jekyll theme'
+description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 http://valentinabojan.github.io
+baseurl:             ''
+paginate:            5
 
+# About/contact
 author:
-  name: Valentina Bojan
-  email: bojan.valentinacamelia@gmail.com
-  avatar: https://gravatar.com/userimage/70327762/786d00eea1f72ee727e667326d0be3c9.jpeg
+  name:              Valentina Bojan
+  email:             bojan.valentinacamelia@gmail.com
+  avatar:            https://gravatar.com/userimage/70327762/786d00eea1f72ee727e667326d0be3c9.jpeg
 
-show_excerpts: true # set to false to remove excerpts on the homepage
-
-theme: minima
+plugins: [jekyll-paginate]
