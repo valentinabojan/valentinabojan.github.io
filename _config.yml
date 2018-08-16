@@ -2,10 +2,11 @@
 permalink:           pretty
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://valentinabojan.github.io
+title:               The Jar of Bits
+tagline:             'Mind what you have learned. Save you it can.'
+description:         'Here, find stranger bits, you will. Forget to always pass on what you have learned, do not.'
+github:
+  repo:              https://github.com/valentinabojan/valentinabojan.github.io
 baseurl:             ''
 paginate:            5
 
@@ -13,6 +14,7 @@ paginate:            5
 author:
   name:              Valentina Bojan
   email:             bojan.valentinacamelia@gmail.com
-  avatar:            https://gravatar.com/userimage/70327762/786d00eea1f72ee727e667326d0be3c9.jpeg
+  avatar:            https://gravatar.com/userimage/70327762/3680c659af74a88706d984a87a97c04f.jpg?size=128
+  avatar1:            https://en.gravatar.com/userimage/70327762/c22f7d8b4cdf025474bad9cbf7ed9119.jpg?size=128
 
 plugins: [jekyll-paginate]

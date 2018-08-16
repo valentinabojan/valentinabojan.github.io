@@ -5,9 +5,18 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
+
+  <div class="sidebar-item content-center" style="padding-bottom: 0;">
+    <img src="{{ site.author.avatar }}" class="rounded">
+  </div>
+
+  <div class="sidebar-item content-center" style="padding-top: 0; text-align: center;">
     <p>{{ site.description }}</p>
   </div>
+
+    <!--<div class="content-center">-->
+        <!--<img src="{{ site.author.avatar1 }}" class="rounded">-->
+    <!--</div>-->
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
@@ -28,6 +37,7 @@
 
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+
   </nav>
 
   <div class="sidebar-item">
