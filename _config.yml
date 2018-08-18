@@ -17,5 +17,8 @@ author:
   avatar:            https://gravatar.com/userimage/70327762/3680c659af74a88706d984a87a97c04f.jpg?size=128
   avatar1:           https://en.gravatar.com/userimage/70327762/c22f7d8b4cdf025474bad9cbf7ed9119.jpg?size=128
 
+# Google Analytics
+google_analytics: UA-124157958-1
+
 plugins:
   - jekyll-paginate

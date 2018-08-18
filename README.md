@@ -1,6 +1,6 @@
 # USED
 - add reading time -->  http://atekihcan.github.io/blog/2014/reading-time-estimate-in-jekyll
-
+- add support for Google Analytics --> https://desiredpersona.com/google-analytics-jekyll/
 
 # Lanyon
 
