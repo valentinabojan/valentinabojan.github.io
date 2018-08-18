@@ -1,0 +1,20 @@
+<!--Get the number of words in a post-->
+{% assign num_words = include.content | number_of_words %}
+
+<!--Calculate the time required to read those words-->
+{% assign minutes_f = num_words | divided_by: 180.0 %}      <!--minutes in decimal-->
+{% assign minutes_i = num_words | divided_by: 180 %}        <!--minutes in integer-->
+{% assign diff = minutes_f | minus: minutes_i %}            <!--fractional part of minutes-->
+{% if diff >= 0.5 %}
+{% assign minutes = minutes_i + 1 %}
+{% else %}
+{% assign minutes = minutes_i %}
+{% endif %}
+
+<!--Show the time estimate to the reader-->
+{% if minutes <= 1 %}
+{% assign reading_time = '1' | append: ' minute' %}
+{% else %}
+{% assign reading_time = minutes | append: ' minutes' %}
+{% endif %}
+{{ reading_time  }}
