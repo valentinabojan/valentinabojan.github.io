@@ -12,8 +12,7 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
+    <span class="post-date">{{ post.date | date_to_string }} • {% capture readtime %}{{ post.content | reading_time }}{% endcapture %} {{ readtime }} min. read</span>
     {{ post.content }}
   </div>
   {% endfor %}
