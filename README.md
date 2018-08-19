@@ -4,7 +4,7 @@
 - formatted date --> http://alanwsmith.com/jekyll-liquid-date-formatting-examples
 - added Font Awesome --> https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css
 - add disqus support for comments --> http://kylestratis.com/2015/05/05/blog-setup-pt2/
-
+- add excerpts in Home page --> http://www.seanbuscay.com/blog/jekyll-teaser-pager-and-read-more/; https://jekyllrb.com/docs/posts/#post-excerpts
  
 # Lanyon
 

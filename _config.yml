@@ -10,6 +10,8 @@ github:
 baseurl:             ''
 paginate:            5
 
+excerpt_separator: '<!--- excerpt -->'
+
 # About/contact
 author:
   name:              Valentina Bojan

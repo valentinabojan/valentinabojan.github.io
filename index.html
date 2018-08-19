@@ -19,7 +19,13 @@ title: Home
       <a href="{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ site.disqus-id }}{{ post.url | replace:'index.html','' }}">Join the discussion</a>
     </span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+
+    {% capture content_words %} {{ post.content | number_of_words }} {% endcapture %}
+    {% capture excerpt_words %} {{ post.excerpt | number_of_words }} {% endcapture %}
+    {% if excerpt_words != content_words %}
+      <p><a class="btn btn-sm btn-primary" href="{{ post.url }}/#read-more" role="button">Read more <i class="far fa-arrow-alt-circle-right"></i></a></p>
+    {% endif %}
   </div>
   {% endfor %}
 </div>
