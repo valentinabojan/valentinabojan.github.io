@@ -20,5 +20,9 @@ author:
 # Google Analytics
 google_analytics: UA-124157958-1
 
+# Disqus
+disqus-id: valentinabojan-github-io
+page-path: valentinabojan.github.io
+
 plugins:
   - jekyll-paginate
