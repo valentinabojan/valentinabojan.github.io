@@ -7,6 +7,7 @@ layout: default
   <span class="post-date">
     <i class="far fa-calendar-alt"></i> <span class="post-date-margin"> {{ page.date | date: '%B %d, %Y' }} </span>
     <i class="far fa-clock"></i> {% include reading-time.html content=content %} read
+    <a href="{{ site.url }}{{ page.url }}#disqus_thread">Link</a>
   </span>
   {{ content }}
 </div>

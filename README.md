@@ -3,7 +3,7 @@
 - add support for Google Analytics --> https://desiredpersona.com/google-analytics-jekyll/
 - formatted date --> http://alanwsmith.com/jekyll-liquid-date-formatting-examples
 - added Font Awesome --> https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css
-
+- add disqus support for comments --> http://kylestratis.com/2015/05/05/blog-setup-pt2/
 
  
 # Lanyon
