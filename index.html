@@ -15,7 +15,7 @@ title: Home
     <span class="post-date">
       <i class="far fa-calendar-alt"></i> <span class="post-date-margin"> {{ post.date | date: '%B %d, %Y' }} </span>
       <i class="far fa-clock"></i> <span class="post-date-margin"> {% include reading-time.html content=post.content %} read </span>
-      <i class="far fa-comment-dots"></i> <a href="{{ site.url }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ site.disqus-id }}{{ post.url | replace:'index.html','' }}"></a>
+      <i class="far fa-comment-dots"></i> <a href="{{ site.url }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ site.disqus-id }}{{ post.url | replace:'index.html','' }}"></a>
     </span>
 
     {{ post.content }}
