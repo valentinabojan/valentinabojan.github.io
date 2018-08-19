@@ -10,6 +10,16 @@ layout: default
     <i class="far fa-comment-dots"></i>
     <a href="{{ site.url }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ site.disqus-id }}{{ page.url | replace:'index.html','' }}">Join the discussion</a>
   </span>
+
+  <span class="post-date">
+    {% if page.tags != empty %}
+      <i class="fas fa-tags"></i>
+      {% for tag in page.tags %}
+        <a href="{{site.baseurl}}/tags/#{{tag|slugize}}" class="tag">{{ tag }}</a>
+      {% endfor %}
+    {% endif %}
+  </span>
+
   {{ content }}
   {% include comments.html %}
 </div>

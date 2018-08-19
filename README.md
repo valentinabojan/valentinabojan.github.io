@@ -5,7 +5,8 @@
 - added Font Awesome --> https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css
 - add disqus support for comments --> http://kylestratis.com/2015/05/05/blog-setup-pt2/
 - add excerpts in Home page --> http://www.seanbuscay.com/blog/jekyll-teaser-pager-and-read-more/; https://jekyllrb.com/docs/posts/#post-excerpts
- 
+- add tags --> https://blog.webjeda.com/jekyll-categories/; https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/
+
 # Lanyon
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
