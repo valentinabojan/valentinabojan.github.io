@@ -3,6 +3,17 @@
     justify-content: center;
 }
 
-.post-date-margin {
-    margin-right: 3rem;
+.content-margin-right {
+     margin-right: 3rem;
+}
+
+.content-margin {
+    margin-right: .5rem;
+    margin-left: .5em;
+}
+
+.sidebar-logo {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 }

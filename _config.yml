@@ -14,7 +14,9 @@ paginate:            5
 author:
   name:              Valentina Bojan
   email:             bojan.valentinacamelia@gmail.com
-  avatar:            https://gravatar.com/userimage/70327762/3680c659af74a88706d984a87a97c04f.jpg?size=128
+  github:            https://github.com/valentinabojan
+  linkedin:          https://www.linkedin.com/in/valentina-camelia-bojan-55560b99/
+  avatar:            https://gravatar.com/userimage/70327762/3680c659af74a88706d984a87a97c04f.jpg?size=160
   avatar1:           https://en.gravatar.com/userimage/70327762/c22f7d8b4cdf025474bad9cbf7ed9119.jpg?size=128
 
 # Google Analytics

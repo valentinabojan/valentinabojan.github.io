@@ -6,8 +6,20 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
 
-  <div class="sidebar-item content-center" style="padding-bottom: 0;">
-    <img src="{{ site.author.avatar }}" class="rounded">
+  <div class="sidebar-item content-center">
+    <img class="sidebar-logo" src="{{ site.author.avatar }}" style="margin-bottom: 0"/>
+  </div>
+
+  <div class="sidebar-item content-center" style="padding-top: 0;">
+    <a href="{{ site.author.github }}" class="content-margin">
+      <i class="fab fa-github-square fa-2x"></i>
+    </a>
+    <a href="{{ site.author.linkedin }}" class="content-margin">
+      <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+    <a href="mailto: {{ site.author.email }}" class="content-margin">
+      <i class="fas fa-at fa-2x"></i>
+    </a>
   </div>
 
   <div class="sidebar-item content-center" style="padding-top: 0; text-align: center;">
