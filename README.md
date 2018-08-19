@@ -1,7 +1,11 @@
 # USED
 - add reading time -->  http://atekihcan.github.io/blog/2014/reading-time-estimate-in-jekyll
 - add support for Google Analytics --> https://desiredpersona.com/google-analytics-jekyll/
+- formatted date --> http://alanwsmith.com/jekyll-liquid-date-formatting-examples
+- added Font Awesome --> https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css
 
+
+ 
 # Lanyon
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.

@@ -4,7 +4,10 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}  • {% include reading-time.html content=content %} to read</span>
+  <span class="post-date">
+    <i class="far fa-calendar-alt"></i> <span class="post-date-margin"> {{ page.date | date: '%B %d, %Y' }} </span>
+    <i class="far fa-clock"></i> {% include reading-time.html content=content %} read
+  </span>
   {{ content }}
 </div>
 

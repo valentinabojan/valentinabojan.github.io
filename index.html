@@ -12,7 +12,11 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }} • {% include reading-time.html content=post.content %} to read</span>
+    <span class="post-date">
+      <i class="far fa-calendar-alt"></i> <span class="post-date-margin"> {{ post.date | date: '%B %d, %Y' }} </span>
+      <i class="far fa-clock"></i> {% include reading-time.html content=post.content %} read
+    </span>
+
     {{ post.content }}
   </div>
   {% endfor %}
