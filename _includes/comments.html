@@ -1,11 +1,8 @@
 <div id="disqus_thread"></div>
 <script>
-    console.log("aici");
     var disqus_config = function () {
         this.page.url = "{{ site.url }}{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
         this.page.identifier = "{{ site.disqus-id }}{{ page.url | replace:'index.html','' }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        console.log(this.page.url);
-        console.log(this.page.identifier);
     };
 
 
