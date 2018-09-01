@@ -42,7 +42,7 @@ Even if you can start writing posts, your blog is not as shinny as you imagined 
 If you started writing a blog, for sure you worked in a lot of other interesting projects. Use your blog to share your contributions to the community.
 
 The sidebar can a very good place to gather your contact list.
-You can use a minimalistic way to hint them, by using [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/setup/getting-started?using=web-fonts-with-css).
+You can use a minimalistic way to hint them, by using [Font Awesome](https://fontawesome.com).
 
 Just load the stylesheet in your *head.html* file and start using them in your *sidebar.html* file.
 
@@ -87,7 +87,57 @@ This way, they will decide if that's the time to read the post or if they should
 [Here](http://atekihcan.github.io/blog/2014/reading-time-estimate-in-jekyll/)
 you can find a very good example of how to compute the reading time based on the post content length.
 
-**3. Change the post date format**
+
+**3. Create drafts for your posts before publishing them**
+
+Don't hesitate versioning your post drafts.
+You can safely do this by putting your draft files in a *_drafts* directory.
+
+GitHub Pages will know how to deal with the *_drafts* content and not publish it.
+Locally you can always preview your drafts by running the `jekyll` command with the `--drafts` flag: `jekyll server --watch --drafts`
+
+When your post is ready, just move it in the *_posts* directory.
+
+
+**4. Add post excerpts in the Home page**
+
+By default, the Lanyon theme shows all posts (paginated of course) in your blog *Home* page.
+If you want to change this behavior and display only a post teaser instead, you should configure the so called *post excerpts*.
+
+For this, you'll have to choose a excerpt separator and specify it in the *_config.yaml* file.
+
+{% highlight yaml %}
+excerpt_separator: '<!-- excerpt -->'
+{% endhighlight %}
+
+To display the post excerpts instead of the contents, you'll need to modify the *index.html* file accordingly.
+{% highlight yaml %}
+{% raw %}
+// replace this
+{{ post.content }}
+
+// with this
+{{ post.excerpt }}
+{% endraw %}
+{% endhighlight %}
+
+Then, when writing your post you will manually use the excerpt separator in the place where you want your post teaser to stop.
+
+
+**5. Monitor your website traffic with Google Analytics**
+
+[Google Analytics](https://analytics.google.com) can prove to be a very good toll to better understand your readers.
+Apart from tracking the visualisation number of your blog, you can use Google Analytics to see
+the pages that are visualised the most, when are blog posts most visited, how much time the readers spend accessing your blog.
+
+Based on these details, you can decide what to write next.
+
+You can follow [this blog post](https://desiredpersona.com/google-analytics-jekyll/) to configure Google Analytics for your new website.
+
+
+
+
+**6. Change the post date format**
 
 In case you don't like the default date format for your posts (i.e. *date_to_string*, e.g. *03 May 2013*), you can easily change it 
 by configuring your preferred format.
