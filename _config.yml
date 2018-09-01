@@ -9,6 +9,7 @@ github:
   repo:              https://github.com/valentinabojan/valentinabojan.github.io
 baseurl:             ''
 paginate:            5
+url:                 'https://thejarofbits.com'
 
 excerpt_separator: '<!--- excerpt -->'
 
