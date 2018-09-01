@@ -44,9 +44,8 @@ If you started writing a blog, for sure you worked in a lot of other interesting
 The sidebar can a very good place to gather your contact list.
 You can use a minimalistic way to hint them, by using [Font Awesome](https://fontawesome.com).
 
-Just load the stylesheet in your *head.html* file and start using them in your *sidebar.html* file.
+Just load the stylesheet in your *head.html* file:
 
-<!--
 {% highlight html %}
 <head>
   ...
@@ -57,6 +56,8 @@ Just load the stylesheet in your *head.html* file and start using them in your *
   ...
 </head>
 {% endhighlight %}
+
+and start using them in your *sidebar.html* file:
 
 {% highlight html %}
 {% raw %}
@@ -77,7 +78,7 @@ Just load the stylesheet in your *head.html* file and start using them in your *
 </div>
 {% endraw %}
 {% endhighlight %}
--->
+
 
 **2. Add reading time**
 
@@ -123,8 +124,14 @@ To display the post excerpts instead of the contents, you'll need to modify the 
 
 Then, when writing your post you will manually use the excerpt separator in the place where you want your post teaser to stop.
 
+**5. Change the post date format**
 
-**5. Monitor your website traffic with Google Analytics**
+In case you don't like the default date format for your posts (i.e. *date_to_string*, e.g. *03 May 2013*), you can easily change it 
+by configuring your preferred format.
+
+Check [this post](http://alanwsmith.com/jekyll-liquid-date-formatting-examples) for more examples. 
+
+**6. Monitor your website traffic with Google Analytics**
 
 [Google Analytics](https://analytics.google.com) can prove to be a very good toll to better understand your readers.
 Apart from tracking the visualisation number of your blog, you can use Google Analytics to see
@@ -135,12 +142,157 @@ Based on these details, you can decide what to write next.
 You can follow [this blog post](https://desiredpersona.com/google-analytics-jekyll/) to configure Google Analytics for your new website.
 
 
+**7. Enable Disqus comments**
+
+You will want to keep in touch with your readers, receive suggestions and  offer support if there any questions.
+Enabling post comments can help you in this regard.
+
+[Disqus](https://disqus.com) is a good tool for this. Create an account and follow their instructions to enable comments for your blog posts.
+
+Add the new Disqus information in the *config.yaml* file:
+
+{% highlight yaml %}
+{% raw %}
+# Example
+disqus-id: <your-disqus-id>
+page-path: <your-blog-url>
+{% endraw %}
+{% endhighlight %}
+
+Load Disqus comments using this *comments.html* file:
+
+{% highlight html %}
+{% raw %}
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = "{{ site.url }}{{ page.url }}";
+        this.page.identifier = "{{ site.disqus-id }}{{ page.url | replace:'index.html','' }}";
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = "https://{{ site.disqus-id }}.disqus.com/embed.js";
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endraw %}
+{% endhighlight %}
+
+Include comments in the posts layout:
+
+{% highlight html %}
+{% raw %}
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  {{ content }}
+  {% include comments.html %}
+</div>
+{% endraw %}
+{% endhighlight %}
+
+To display the number of comments for your posts, load the following script in your *default.html* file:
+
+{% highlight html %}
+{% raw %}
+<script id="dsq-count-scr" src="//{{ site.disqus-id }}.disqus.com/count.js" async></script>
+{% endraw %}
+{% endhighlight %}
+
+Display the number of comments in your *post.html* file:
+
+{% highlight html %}
+{% raw %}
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">
+    <i class="far fa-comment-dots"></i>
+    <a href="{{ site.url }}{{ page.url }}#disqus_thread" data-disqus-identifier="{{ site.disqus-id }}{{ page.url | replace:'index.html','' }}">Join the discussion</a>
+  </span>
+  {{ content }}
+  {% include comments.html %}
+</div>
+{% endraw %}
+{% endhighlight %}
 
 
-**6. Change the post date format**
+**8. Add tags**
 
-In case you don't like the default date format for your posts (i.e. *date_to_string*, e.g. *03 May 2013*), you can easily change it 
-by configuring your preferred format.
+You can specify one or more tags for you posts and allow grouping your posts by category.
+This way, if your readers are interested in a certain subject, they can view all posts related to that subject.
 
-Check [this post](http://alanwsmith.com/jekyll-liquid-date-formatting-examples) for more examples. 
+To have this feature, start by adding tags to each of your posts. For example, like this:
 
+{% highlight yaml %}
+---
+layout: post
+title: How to create a blog using GitHub Pages and Jekyll in 1 day
+tags: [Blogging, Howto]
+---
+{% endhighlight %}
+
+Dynamically display the tags in the *posts.html* layout: 
+
+{% highlight html %}
+{% raw %}
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">
+    {% if page.tags != empty %}
+      <i class="fas fa-tags"></i>
+      {% for tag in page.tags %}
+        <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{ tag }}</a>
+      {% endfor %}
+    {% endif %}
+  </span>
+  {{ content }}
+</div>
+{% endraw %}
+{% endhighlight %}
+ 
+
+Add a link to the new *Tags* page in the *sidebar.html* file:
+
+{% highlight html %}
+{% raw %}
+<a class="sidebar-nav-item" href="{{ site.baseurl }}/tags">Tags</a>
+{% endraw %}
+{% endhighlight %}
+
+Create a new *tags.md* file and reference the *categories* layout:
+
+{% highlight yaml %}
+---
+layout: categories
+title: Tags
+---
+{% endhighlight %}
+
+Create the corresponding *categories.html* layout file:
+
+{% highlight html %}
+{% raw %}
+---
+layout: default
+---
+
+<div>
+  {% for category in site.tags %}
+  <div>
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <h3 class="category-head">{{ category_name }}</h3>
+
+    <ul style="list-style-type:none">
+    {% for post in site.tags[category_name] %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+{% endraw %}
+{% endhighlight %}
+
+**9. Enjoy your new blog 🍺**
