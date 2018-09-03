@@ -35,7 +35,7 @@ Oh, we love getting dirty. 😉
 
 ## Make your blog ready to meet the world
 
-Even if you can start writing posts, your blog is not as shinny as you imagined it. But it can be... 
+Even if you can start writing posts, your blog is not as shiny as you imagined it. But it can be... 
 
 **1. Configure your contact list** 
 
@@ -105,13 +105,13 @@ When your post is ready, just move it in the *_posts* directory.
 By default, the Lanyon theme shows all posts (with their entire content) in your blog *Home* page.
 If you want to change this behavior and display only a post teaser instead, you need to configure the so called *post excerpts*.
 
-For this, you'll have to choose a excerpt separator and specify it in the *_config.yaml* file.
+For this, you'll have to choose an excerpt separator and specify it in the *_config.yaml* file.
 
 {% highlight yaml %}
 excerpt_separator: '<!-- excerpt -->'
 {% endhighlight %}
 
-To display the post excerpts instead of the contents, you'll need to modify the *index.html* file accordingly.
+To display the post excerpts instead of the contents, you'll need to change the *index.html* file accordingly.
 {% highlight yaml %}
 {% raw %}
 // replace this
