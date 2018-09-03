@@ -295,3 +295,5 @@ layout: default
 {% endhighlight %}
 
 **9. Enjoy your new blog 🍺**
+
+PS: You can always have a look at my [GitHub repository](https://github.com/valentinabojan/valentinabojan.github.io) to see how I configured this blog.
