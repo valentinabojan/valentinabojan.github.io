@@ -4,17 +4,17 @@ title: How to create a blog using GitHub Pages and Jekyll in 1 day
 tags: [Blogging, Howto]
 ---
 
-What should my first post be about if not about this blog genesis?
+What should my first post be about if not about the genesis of this blog?
 
-GitHub Pages and Jekyll were the choice to be the foundation of this blog,
-but there were a lot of bit and pieces that polished it.
+GitHub Pages and Jekyll were the choice to form the foundation of this website,
+but there were a lot of bits and pieces that polished it.
 
 <!--- excerpt -->
 
 Did this choice worth it? Completely! Any engineer would understand the choice. 
 We love the challenges, the puzzles, the ups and downs when building something.
-Tell an engineer that he could choose between having a website just 1 click away, or manually configuring it as he likes, getting dirty to add features that he needs. 
-The answer talks by itself. Oh, we love getting dirty. 😉
+GitHub Pages and Jekyll give you the chance to manually configure your blog as you like and get dirty when adding the features that you need. 
+Oh, we love getting dirty. 😉
 
 ## Set the blog foundation
 
@@ -33,7 +33,7 @@ The answer talks by itself. Oh, we love getting dirty. 😉
 </dl>
 
 
-## Make you blog ready to meet the world
+## Make your blog ready to meet the world
 
 Even if you can start writing posts, your blog is not as shinny as you imagined it. But it can be... 
 
@@ -83,7 +83,7 @@ and start using them in your *sidebar.html* file:
 **2. Add reading time**
 
 You could help your readers by listing the estimated reading time of a blog post.
-This way, they will decide if that's the time to read the post or if they should postpone it for later.
+They will use it to decide if that's the time to read the post or if they should postpone it for later.
 
 [Here](http://atekihcan.github.io/blog/2014/reading-time-estimate-in-jekyll/)
 you can find a very good example of how to compute the reading time based on the post content length.
@@ -102,8 +102,8 @@ When your post is ready, just move it in the *_posts* directory.
 
 **4. Add post excerpts in the Home page**
 
-By default, the Lanyon theme shows all posts (paginated of course) in your blog *Home* page.
-If you want to change this behavior and display only a post teaser instead, you should configure the so called *post excerpts*.
+By default, the Lanyon theme shows all posts (with their entire content) in your blog *Home* page.
+If you want to change this behavior and display only a post teaser instead, you need to configure the so called *post excerpts*.
 
 For this, you'll have to choose a excerpt separator and specify it in the *_config.yaml* file.
 
@@ -133,9 +133,9 @@ Check [this post](http://alanwsmith.com/jekyll-liquid-date-formatting-examples) 
 
 **6. Monitor your website traffic with Google Analytics**
 
-[Google Analytics](https://analytics.google.com) can prove to be a very good toll to better understand your readers.
-Apart from tracking the visualisation number of your blog, you can use Google Analytics to see
-the pages that are visualised the most, when are blog posts most visited, how much time the readers spend accessing your blog.
+[Google Analytics](https://analytics.google.com) can prove to be a very good tool to better understand your readers.
+Apart from tracking the views count of your blog, you can use Google Analytics to see
+the pages that are visualised the most, when are blog posts most visited, or how much time the readers spend on your blog.
 
 Based on these details, you can decide what to write next.
 
@@ -144,7 +144,7 @@ You can follow [this blog post](https://desiredpersona.com/google-analytics-jeky
 
 **7. Enable Disqus comments**
 
-You will want to keep in touch with your readers, receive suggestions and  offer support if there any questions.
+You will want to keep in touch with your readers, receive suggestions and  offer support when there are any questions.
 Enabling post comments can help you in this regard.
 
 [Disqus](https://disqus.com) is a good tool for this. Create an account and follow their instructions to enable comments for your blog posts.
@@ -155,7 +155,6 @@ Add the new Disqus information in the *config.yaml* file:
 {% raw %}
 # Example
 disqus-id: <your-disqus-id>
-page-path: <your-blog-url>
 {% endraw %}
 {% endhighlight %}
 
@@ -220,10 +219,10 @@ Display the number of comments in your *post.html* file:
 
 **8. Add tags**
 
-You can specify one or more tags for you posts and allow grouping your posts by category.
-This way, if your readers are interested in a certain subject, they can view all posts related to that subject.
+You can annotate your posts with one or more tags and allow this way grouping them by category.
+This way, if your readers are interested in a certain subject, they can easily view all posts related to it.
 
-To have this feature, start by adding tags to each of your posts. For example, like this:
+To have this feature, start by adding tags to each one of your posts. For example, like this:
 
 {% highlight yaml %}
 ---
@@ -233,7 +232,7 @@ tags: [Blogging, Howto]
 ---
 {% endhighlight %}
 
-Dynamically display the tags in the *posts.html* layout: 
+For every post, dynamically display the tags in the *posts.html* layout: 
 
 {% highlight html %}
 {% raw %}
