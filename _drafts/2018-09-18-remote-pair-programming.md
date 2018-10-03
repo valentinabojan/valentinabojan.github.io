@@ -48,53 +48,62 @@ By applying this practice, they will become more valuable to the team and to the
 
 
 
+## How to successfully face challenges in remote pair programming
 
+I am working in a company that embraces extreme programming as one of its values, so pair programming is a globally
+applied practice in my division and project. Since last year, we have started working as two distributed teams and even
+if we were fans of doing pair programming, we were all asking ourselves how this will work when the driver and the navigator
+are working remotely.
 
+After doing this for one years, I can now write down a list of challenges that we faces during the process.
 
+### 1. Find a suitable tool for remote desktop control
+
+If you start doing remote pair programming, you will want to be able to switch the driver-navigator roles as easily as possible.
+If the pair was collocated, this switch would mean just passing the keyboard around.
+
+Luckily, [TeamViewer](https://www.teamviewer.com/) is a great tool for remote desktop control. You can use it to connect
+to a remote desktop, see the remote screen(s) and take over the mouse and keyboard control whenever you want. TeamViewer
+is smart enough to offer you sound/video features to hear/see your remote pair.
+
+### 2. Find a lightweight tool to always keep in touch to your pair
+
+As I mentioned in the previous section, you can always TeamViewer to keep in touch to your pair during the process. 
+
+Personally I didn't have a such a great experience using TeamViewer audio features on y Linux machine, so I dropped it
+and kept using it only for remote control. The commonly agreed choice in my team was using the Slack calls.
+We were already using [Slack](https://slack.com) for team communication, so we happily gave the Slack calls a try when this feature was released.
+And we didn't regret it.
+
+### 3. Adjusting to Timezones
+
+This can be a real challenge if the pair members are from different countries and implicitelly there are time zone differences.
+For example, there is a mix between Romanian and Belgium developers in my current team. Because Belgium is one hour ahead of Romania,
+some of us will always arrive at work one hour earlier then the remote ones, or will leave one hour earlier in the evening.
+There can be a desynchronization when it comes about lunch break as well. Working in different offices, you can have
+different meetings, too, so yet another moment when you'll have to leave your pair alone.
+
+The important point here is to be aware that this will definitely be on your table when it comes about remote pair
+programming and how to deal with it. And because pair programming is about knowledge transfer, having the pair split for
+1-2 hours a day is not that harmful. Just take care to version your changes when you left your computer and your pair
+can take over for the next hour. You'll sync when you're back. 
+
+### 4. Don't forget having breaks
+
+Because you are pairing with a remote colleague and you cannot have a break (and maybe walk and talk together), 
+this doesn't mean you shouldn't have it separately. Pay attention at this aspect and don't fall in the trap of sitting
+in front of the computer all day long. Apart from being recommended, a break can fresh you thoughts and give you a fresh
+grasp of what you are working on. So, don't be shy and ask you pair to have a 5-10 min break at every 1-2 hours. Walk around,
+watch the sky, do some casual chatting with your co-located colleagues.
+
+### 5. Find a suitable way to do a remote architecture design
+
+Myabe not all tasks require having a complex architecture design before starting writing code, but there will always be 
+some that do. In such situation you will want a tool to easily draw some components, class diagrams, and the interactions between them.
+draw.io is a good choice for this, but it can be a burden when all you want is maybe a quick draft to explain an idea to your pair. 
+
+So, carefully choose your weapon depending on the context!
+* [draw.io](https://www.draw.io) helps you to draw clear, proficient diagrams of your system.
+* [Sketchpad](https://sketch.io) helps you to sketch your idea on the spot.
  
 
-
-## Inline HTML elements
-
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-
-- **To bold text**, use `<strong>`.
-- *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
-
-Most of these elements are styled by browsers with few modifications on our part.
-
-### Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-{% highlight js %}
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-{% endhighlight %}
-
-### Lists
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-<dl>
-  <dt>HyperText Markup Language (HTML)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
-
-  <dt>Cascading Style Sheets (CSS)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-
-  <dt>JavaScript (JS)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
