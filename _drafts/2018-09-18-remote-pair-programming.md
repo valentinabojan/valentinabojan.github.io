@@ -94,7 +94,9 @@ make sure you leave him/her a message about what you continued to do in his/her 
 Because you are pairing with a remote colleague and you cannot have a break (and maybe walk and talk together), 
 this doesn't mean you shouldn't have it separately. Pay attention at this aspect and don't fall in the trap of sitting
 in front of the computer all day long. Apart from being recommended, a break can fresh you thoughts and give you a fresh
-grasp of what you are working on. So, don't be shy and ask you pair to have a 5-10 min break at every 1-2 hours. Walk around,
+grasp of what you are working on.
+
+So, don't be shy and ask you pair to have a 5-10 min break at every 1-2 hours. Take your headset off, walk around,
 watch the sky, do some casual chatting with your co-located colleagues.
 
 ### 5. Find a suitable way to do a remote architecture design
@@ -126,6 +128,21 @@ If you want to have a successful distributed team, get to know your remote colle
 Find out their hobbies, food, believes, routines, opinions and be ready to be surprised on the cultural differences.
 Cross the distance barriers and start winning friends!   
 
+### 8. Get a comfortable audio headset
 
+Remote pair programming implies spending a lot of time with a headset on your ears. Take some time and get one that
+doesn't give you any head or ear aches. You want to feel as comfortable as possible and put all your focus on pair
+programming. 
+
+And don't forget to share them with your team! You are all together trying your best to make remote pair programming work,
+so if you felt the pain of your audio headset, most probably your colleagues would do as well.  
  
+### 9. Don't forget to interact with your co-located colleagues
+
+If you have more remote colleagues than co-located, there is a higher probability of doing remote pair programming. 
+This can affect your work relationships with your peer colleagues. If you are lucky, you will have lunch together. 
+Otherwise, there is a risk to be days when you don't talk at all.
+
+Take care of the interactions with your colleagues. Make a habit of having lunch together, or taking 1-2 breaks all at
+the same time to change ideas, chat, align. Fight the routine! Don't let walls to grow between you!
 
