@@ -75,7 +75,7 @@ and kept using it only for remote control. The commonly agreed choice in my team
 We were already using [Slack](https://slack.com) for team communication, so we happily gave the Slack calls a try when this feature was released.
 And we didn't regret it.
 
-### 3. Adjusting to Timezones
+### 3. Adjust to timezones
 
 This can be a real challenge if the pair members are from different countries and implicitelly there are time zone differences.
 For example, there is a mix between Romanian and Belgium developers in my current team. Because Belgium is one hour ahead of Romania,
@@ -85,8 +85,9 @@ different meetings, too, so yet another moment when you'll have to leave your pa
 
 The important point here is to be aware that this will definitely be on your table when it comes about remote pair
 programming and how to deal with it. And because pair programming is about knowledge transfer, having the pair split for
-1-2 hours a day is not that harmful. Just take care to version your changes when you left your computer and your pair
-can take over for the next hour. You'll sync when you're back. 
+1-2 hours a day is not that harmful. Just take care to commit your changes to version control when you left your
+computer and your pair can take over for the next hour. You'll sync when you're back. If your pair calls the day before you,
+make sure you leave him/her a message about what you continued to do in his/her absence.
 
 ### 4. Don't forget having breaks
 
@@ -98,12 +99,33 @@ watch the sky, do some casual chatting with your co-located colleagues.
 
 ### 5. Find a suitable way to do a remote architecture design
 
-Myabe not all tasks require having a complex architecture design before starting writing code, but there will always be 
+Maybe not all tasks require having a complex architecture design before starting writing code, but there will always be 
 some that do. In such situation you will want a tool to easily draw some components, class diagrams, and the interactions between them.
 draw.io is a good choice for this, but it can be a burden when all you want is maybe a quick draft to explain an idea to your pair. 
 
 So, carefully choose your weapon depending on the context!
 * [draw.io](https://www.draw.io) helps you to draw clear, proficient diagrams of your system.
 * [Sketchpad](https://sketch.io) helps you to sketch your idea on the spot.
+ 
+### 6. Repair
+
+Working remotely can make the repairing even more difficult. Step out of your comfort zone and try repair at least after 2 days.
+Yes, the story lead will have to do a handover to his/her new pair, but think to how fast the knowledge transfer is done by repairing.
+If your story is not done in 2 days, then your pair can easily pick up the next story of that epic and be the lead of it.
+He/She will pair up with someone else and instead of being only 2 that know about that specific topic, in only 3 days, you will be 4.
+
+Just find what's the time interval that best fit everyone to repair. If a day feels too soon, try not spending more than 2 days with your pair.
+Start passing you knowledge to a third person.
+
+### 7. Be ready for some remote chatting
+
+It's practically impossible to work 100% of your time. We write software that has to be tested and deployed. The last two activities
+imply time to mostly stay, observe and monitor a CI/CD tool in action. Use this time to do some cultural exchange with your remote pair.
+
+If you want to have a successful distributed team, get to know your remote colleagues as if they would work in the same office as you.
+Find out their hobbies, food, believes, routines, opinions and be ready to be surprised on the cultural differences.
+Cross the distance barriers and start winning friends!   
+
+
  
 
