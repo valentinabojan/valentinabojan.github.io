@@ -146,3 +146,17 @@ Otherwise, there is a risk to be days when you don't talk at all.
 Take care of the interactions with your colleagues. Make a habit of having lunch together, or taking 1-2 breaks all at
 the same time to change ideas, chat, align. Fight the routine! Don't let walls to grow between you!
 
+
+## Summary 
+
+I think that we can all agree on the fact that doing pair programming remotely is not going to be easy in the first weeks
+(maybe even months), but the attitude towards making it work is what's matters the most. Making the people believe in it, 
+being open minded when facing its challenges and putting all the good will and effort to make it work are only a few of
+the steps to be successful in remote pair programming.
+
+When we 'migrated' from doing pair programming in our co-located team to doing it remotely, I often hear in my team the following words: 
+> It's not about bad tooling, it's about team's attitude, it's about if your team really wants remote pair programming!
+
+Yes, you can blame the distance or the bad tooling that make your job difficult, but if you are in a team where everyone
+wants to be good at remote pair programming, you have no excuses. Every pain can be fixed. Nobody says is gonna be easy,
+but in the end it will definitely worth the effort!
