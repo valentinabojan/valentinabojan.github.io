@@ -152,4 +152,4 @@ When we 'migrated' from doing pair programming in our co-located team to doing i
 
 Yes, you can blame the distance or the bad tooling that make your job difficult, but if you are in a team where everyone
 wants to be good at remote pair programming, you have no excuses. Every pain can be fixed. Nobody says it's gonna be easy,
-but in the end it will definitely worth the effort!
+but in the end it will definitely worth the effort! 💪
