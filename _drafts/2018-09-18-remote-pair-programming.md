@@ -43,7 +43,7 @@ are working remotely.
 
 After doing this for one year, I can now write down a list of challenges that we faced during the process.
 
-### 1. Find a suitable tool for remote desktop control
+**1. Find a suitable tool for remote desktop control**
 
 If you start doing remote pair programming, you will want to be able to switch the driver-navigator roles as easy as possible.
 If the pair was collocated, this switch would mean just passing the keyboard around.
@@ -51,7 +51,7 @@ If the pair was collocated, this switch would mean just passing the keyboard aro
 Luckily, [TeamViewer](https://www.teamviewer.com/) is a great tool for remote desktop control. You can use it to connect
 to a remote desktop, see the remote screen(s) and take over the mouse and keyboard control whenever you want.
 
-### 2. Find a lightweight tool to always keep in touch to your pair
+**2. Find a lightweight tool to always keep in touch to your pair**
 
 Even if TeamViewer is smart enough to offer you sound/video features to keep in touch to your pair during the process,  
 personally I didn't have a such a great experience using its audio features on my Linux machine, so I dropped it
@@ -60,7 +60,7 @@ and kept using it only for remote control.
 The commonly agreed choice in my team was using the Slack calls. We were already using [Slack](https://slack.com) for
 team communication, so we happily gave the Slack calls a try when this feature was released. And we didn't regret it.
 
-### 3. Find a suitable way to do a remote architecture design
+**3. Find a suitable way to do a remote architecture design**
 
 Maybe not all tasks require having a complex architecture design before starting writing code, but there will always be 
 some that do. In such situation you will want a tool to easily draw some components, class diagrams, and the interactions between them.
@@ -71,7 +71,7 @@ So, depending on the context, carefully choose your weapon!
 * [draw.io](https://www.draw.io) helps you to draw clear, proficient diagrams of your system.
 * [Sketchpad](https://sketch.io) helps you to sketch your idea on the spot.
 
-### 4. Adjust to timezones
+**4. Adjust to timezones**
 
 This can be a real challenge if the pair members are from different countries and implicitly there are time zone differences.
 
@@ -88,7 +88,7 @@ And because pair programming is about knowledge transfer, having the pair split 
 computer and your pair can take over for the next hour. You'll sync when you're back. If your pair calls it the day before you,
 make sure you leave him/her a message about what you continued to do in his/her absence.
 
-### 5. Don't forget having breaks
+**5. Don't forget taking breaks**
 
 Because you are pairing with a remote colleague and you cannot take a break (and maybe walk and talk together), 
 this doesn't mean you shouldn't have it separately. Pay attention at this aspect and don't fall in the trap of sitting
@@ -98,7 +98,7 @@ grasp of what you are working on.
 So, don't be shy and ask you pair to have a 5-10 min break at every 1-2 hours. Take your headset off, walk around,
 watch the sky, do some casual chatting with your co-located colleagues.
 
-### 6. Re-pair
+**6. Re-pair**
 
 Working remotely can make the re-pairing even more difficult. Step out of your comfort zone and try re-pair at least every 2 days.
 
@@ -109,7 +109,7 @@ He/She will pair up with someone else and instead of being only 2 that know abou
 Just find what's the time interval that best fits everyone to re-pair. If a day feels too soon, try not spending more than 2 days with your pair.
 Start passing your knowledge to a third person as quickly as possible!
 
-### 7. Be ready for some remote chatting
+**7. Be ready for some remote chatting**
 
 It's practically impossible to work 100% of your time. We write software that has to be tested and deployed. The last two activities
 imply mostly staying, observing and monitoring a CI/CD tool in action. Use this time to do some cultural exchange with your remote pair.
@@ -119,7 +119,7 @@ Find out their hobbies, food, believes, routines, opinions and be ready to be su
 
 Cross the distance barriers and start winning friends!   
 
-### 8. Get a comfortable audio headset
+**8. Get a comfortable audio headset**
 
 Remote pair programming implies spending a lot of time with a headset on your ears. Take some time and get one that
 doesn't give you any head or ear aches. You want to feel as comfortable as possible and put all your focus on pair
@@ -128,7 +128,7 @@ programming.
 And don't forget to share them with your team! You are all trying your best to make remote pair programming work,
 so if you felt the pain of your audio headset, most probably your colleagues would do as well.  
  
-### 9. Don't forget to interact with your co-located colleagues
+**9. Don't forget to interact with your co-located colleagues**
 
 If you have more remote colleagues than co-located, there is a higher probability of doing remote pair programming. 
 This can affect your relationships with your peer colleagues. If you are lucky, you will have lunch together. 
