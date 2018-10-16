@@ -25,13 +25,12 @@ Not four hands, but two roles:
 > *Wait! So two programmers are doing the same task? This sounds rather inefficient!*
 
 Don't fall into this trap! Give it time to see its benefits! It may be that at first a pair finishes the task almost in 
-the same time a single programmers does. But the code quality is undoubtedly better. As time passes, you will
+the same time a single programmer does. But the code quality is undoubtedly better. As time passes, you will
 notice that the **knowledge sharing inside the team is done quicker** than before applying pair programming.
 
 > *So two heads really are better than one!*
 
-Yes! Working in pair, you will have **the code reviewed by two programmers**, a task that was implemented having a **better 
-design**, a **better code quality** and that was **better tested** than it would have been if it was implemented by a single programmer.
+Yes! Working in pair, you will have **the code reviewed by two programmers**, a **better design**, **better code quality** and a task that was **better tested** than it would have been if it was implemented by a single programmer.
 
 
 ## How to successfully overcome challenges in remote pair programming
@@ -53,12 +52,11 @@ to a remote desktop, see the remote screen(s) and take over the mouse and keyboa
 
 **2. Find a lightweight tool to always keep in touch to your pair 🗣️**
 
-Even if TeamViewer is smart enough to offer you sound/video features to keep in touch to your pair during the process,  
-personally I didn't have a such a great experience using its audio features on my Linux machine, so I dropped it
+Even if TeamViewer is smart enough to offer you sound/video features to keep in touch to your pair during the process,   personally I didn't have such a great experience using its audio features on my Linux machine, so I dropped it
 and kept using it only for remote control.
 
 The commonly agreed choice in my team was using the Slack calls. We were already using [Slack](https://slack.com) for
-team communication, so we happily gave the Slack calls a try when this feature was released. And we didn't regret it.
+team communication, so we happily gave the Slack calls a try when this feature was released. And we didn't regret it!
 
 **3. Find a suitable way to do a remote architecture design 🎨**
 
@@ -85,8 +83,7 @@ programming and how to deal with it.
 
 And because pair programming is about knowledge transfer, having the pair split for
 1-2 hours a day is not that harmful. Just take care to commit your changes to version control when you leave your
-computer and your pair can take over for the next hour. You'll sync when you're back. If your pair calls it the day before you,
-make sure you leave him/her a message about what you continued to do in his/her absence.
+computer and your pair can take over for the next hour. You'll sync when you're back. If your pair calls it a day before you, make sure you leave him/her a message about what you continued to do in his/her absence.
 
 **5. Don't forget taking breaks 🌴**
 
@@ -95,8 +92,8 @@ this doesn't mean you shouldn't have it separately. Pay attention at this aspect
 in front of the computer all day long. Apart from being recommended, a break can refresh you thoughts and give you a fresh
 grasp of what you are working on.
 
-So, don't be shy and ask you pair to have a 5-10 min break at every 1-2 hours. Take your headset off, walk around,
-watch the sky, do some casual chatting with your co-located colleagues.
+So, don't be shy and ask you pair to have a 5-10 min break every 1-2 hours. Take your headset off, walk around,
+watch the sky, do some casual chatting with your collocated colleagues.
 
 **6. Re-pair 🔄**
 
@@ -128,9 +125,9 @@ programming.
 And don't forget to share them with your team! You are all trying your best to make remote pair programming work,
 so if you felt the pain of your audio headset, most probably your colleagues would do as well.  
  
-**9. Don't forget to interact with your co-located colleagues 👋**
+**9. Don't forget to interact with your collocated colleagues 👋**
 
-If you have more remote colleagues than co-located, there is a higher probability of doing remote pair programming. 
+If you have more remote colleagues than collocated, there is a higher probability of doing remote pair programming. 
 This can affect your relationships with your peer colleagues. If you are lucky, you will have lunch together. 
 Otherwise, there is a risk to be days when you don't talk at all.
 
@@ -147,7 +144,7 @@ I think that we can all agree on the fact that doing remote pair programming is 
 being open minded when facing its challenges and putting all the good will and effort to make it work are only a few of
 the steps to be successful in remote pair programming.
 
-When we 'migrated' from doing pair programming in our co-located team to doing it remotely, I often heard in my team the following words: 
+When we 'migrated' from doing pair programming in our collocated team to doing it remotely, I often heard in my team the following words: 
 > It's not about bad tooling, it's about team's attitude. It's about if your team really wants remote pair programming!
 
 Yes, you can blame the distance or the bad tooling that make your job difficult, but if you are in a team where everyone
