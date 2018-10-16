@@ -122,7 +122,7 @@ Remote pair programming implies spending a lot of time with a headset on your ea
 doesn't give you any head or ear aches. You want to feel as comfortable as possible and put all your focus on pair
 programming. 
 
-And don't forget to share them with your team! You are all trying your best to make remote pair programming work,
+And don't forget to share the model with your team! You are all trying your best to make remote pair programming work,
 so if you felt the pain of your audio headset, most probably your colleagues would do as well.  
  
 **9. Don't forget to interact with your collocated colleagues 👋**
