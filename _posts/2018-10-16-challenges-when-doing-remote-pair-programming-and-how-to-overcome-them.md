@@ -73,8 +73,8 @@ So, depending on the context, carefully choose your weapon!
 
 This can be a real challenge if the pair members are from different countries and implicitly there are time zone differences.
 
-For example, there is a mix between Romanian and Belgium developers in my current team. Because Belgium is one hour ahead of Romania,
-some of us will always arrive at work one hour earlier than the remote ones, or will leave one hour earlier in the evening.
+For example, there is a mix between Romanian and Belgium developers in my current team. Because Belgium is 1 hour behind Romania,
+some of us will always arrive at work one hour earlier than the remote colleagues, or will leave one hour earlier in the evening.
 There can be a desynchronization when it comes about lunch time as well. Working in different offices, you can have
 different meetings too, so yet another moment when you'll have to leave your pair.
 
