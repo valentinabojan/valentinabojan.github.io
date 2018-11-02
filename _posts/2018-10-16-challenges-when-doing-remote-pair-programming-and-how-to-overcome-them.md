@@ -96,8 +96,8 @@ watch the sky, do some casual chatting with your collocated colleagues.
 
 Working remotely can make the re-pairing even more difficult. Step out of your comfort zone and try re-pair at least every 2 days.
 
-Yes, the story lead will have to do a handover to her new pair, but think to how fast the knowledge transfer is done by re-pairing.
-If your story is not done in 2 days, then your pair can easily pick up the next story of that epic and be the lead of it.
+Yes, the story owner will have to do a handover to her new pair, but think to how fast the knowledge transfer is done by re-pairing.
+If your story is not done in 2 days, then your pair can easily pick up the next story of that epic and be the owner of it.
 She will pair up with someone else and instead of being only 2 that know about that specific topic, in only 3 days, you will be 4.
 
 Just find what's the time interval that best fits everyone to re-pair. If a day feels too soon, try not spending more than 2 days with your pair.
