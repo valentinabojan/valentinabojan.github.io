@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Challenges when doing remote pair programming and how to overcome them
-tags: [eXtreme programming, DevOps practices]
+tags: [eXtreme programming, DevOps]
 ---
 
 Known not only as one of the 12 practices of [eXtreme programming](https://ronjeffries.com/xprog/what-is-extreme-programming/),
