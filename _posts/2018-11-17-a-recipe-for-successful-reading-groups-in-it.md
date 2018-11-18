@@ -7,7 +7,7 @@ tags: [Practices]
 > *Share your knowledge. It’s a way to achieve immortality.* <br/> \- Dalai Lama
 
 Socrates, Pythagoras, Charles Dickens, Virginia Woolf, Benjamin Franklin, Ernest Hemingway, James Joyce and F. Scott Fitzgerald 
-are only a few big names that used to create and join reading clubs to present their believes, philosophies or 
+are only a few big names that used to create and join reading clubs to present their beliefs, philosophies or 
 literature. Their stories definitely worth our time and [here](https://medium.com/the-mission/the-best-book-clubs-throughout-history-d45537334de0)
 you can find some of them.
 
@@ -57,9 +57,9 @@ where everyone can speak his mind and debate the topic during the timeslot of th
 
 **Should you timebox the sessions?**
 
-Definetelly! You should find a good time duration and use it for all of the reading group sessions.
+Definitely! You should find a good time duration and use it for all of the reading group sessions.
 Depending on how often you have the sessions, the duration of a meeting can vary between 1 and 2 hours.
-If you meet every week, than 1 hour is a good choice. On the other hand, if you decide meeting every 2 weeks, then
+If you meet every week, then 1 hour is a good choice. On the other hand, if you decide meeting every 2 weeks, then
 you will have time to read more material and therefore you'll most likely need 2 hours for discussions.
 
 As a facilitator, you'll always have to keep an eye on the clock and timebox your activities to make sure that
@@ -139,4 +139,4 @@ we presented to our Java colleagues the way we apply the DevOps practices in our
 7. Don't forget to organise a follow up activity 
 8. Keep an open mind
 9. Continuously ask for feedback
-10. Enjoy the book
+10. Enjoy the book!
